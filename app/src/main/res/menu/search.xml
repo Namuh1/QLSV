@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/search_sv123"
+        android:icon="@drawable/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        android:title="Tìm Kiếm">
+    </item>
+
+    <item
+        android:id="@+id/menufadein"
+        android:title="Fade in"></item>
+
+    <item
+        android:id="@+id/menuslideinleft"
+        android:title="Slide in left"></item>
+    <item
+        android:id="@+id/menuslideinup"
+        android:title="Slide in up"></item>
+    <item
+        android:id="@+id/menushake"
+        android:title="Shake"></item>
+    <item
+        android:id="@+id/menuscale"
+        android:title="Scale">
+
+    </item>
+</menu>

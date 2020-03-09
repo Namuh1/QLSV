@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtxemthongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Xem Thông Tin"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txttensinhvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtxemthongtin"
+        android:layout_marginTop="10dp"
+        android:text="Tên Sinh Viên: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/edttensinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtxemthongtin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txttensinhvien"
+        android:text="tên" />
+
+    <TextView
+        android:id="@+id/txtnngaysinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttensinhvien"
+        android:layout_marginTop="18dp"
+        android:text="Ngày Sinh: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/edtNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttensinhvien"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@id/txtnngaysinh"
+        android:text="ngaysinh: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtsdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtnngaysinh"
+        android:layout_marginTop="18dp"
+        android:text="SDT: "
+        android:textSize="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/edtsdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNgaySinh"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/txtsdt"
+        android:text="Không Có Số" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtsdt"
+        android:layout_marginTop="18dp"
+        android:text="Email: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtsdt"
+        android:id="@+id/edtEmail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/txtemail"
+        android:text="Không Có Email" />
+
+
+</RelativeLayout>

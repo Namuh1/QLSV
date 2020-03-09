@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3489FD">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/hinh"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/assignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hinh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Assignment"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assignment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Powered by"
+        android:textColor="#ffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="Ứng Hoài Nam"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</RelativeLayout>

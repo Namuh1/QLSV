@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Giới thiệu về Quản Lý Sinh Viên"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/hinhstudent"
+        android:layout_width="72dp"
+        android:layout_height="82dp"
+        android:layout_below="@id/title"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/student" />
+
+    <TextView
+        android:id="@+id/gioithieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/hinhstudent"
+        android:text="Ứng dụng quản lý sinh viên giúp người dùng có thể quản lý sinh viên một cách dễ dàng và thuận tiện
+" />
+
+    <TextView
+        android:id="@+id/gioithieu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gioithieu"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/hinhstudent"
+        android:text="Copyright © 2019  Ứng Hoài Nam " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gioithieu1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/hinhstudent"
+        android:text="Ứng Dụng được xây dựng bởi 1 thành viên" />
+
+
+</RelativeLayout>

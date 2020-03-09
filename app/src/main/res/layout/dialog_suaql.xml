@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/capnhatsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="Cập Nhật Sinh Viên"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:background="@drawable/input"
+        android:id="@+id/edtnhaptenql"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="Nhập Tên Sinh Viên:"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:background="@drawable/input"
+        android:id="@+id/edtnhapngayql"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="Nhập Ngày:"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:drawableLeft="@drawable/verify"
+            android:id="@+id/btncapnhatql"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/khung1"
+            android:text="Cập Nhật"
+            android:textStyle="bold" />
+
+        <Button
+            android:drawableLeft="@drawable/delete"
+            android:id="@+id/btnhuyql"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/khung1"
+            android:text="Hủy"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
